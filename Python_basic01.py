@@ -1,3 +1,4 @@
+import random
 #Author:Nirmeet_Pansuriya
 #Date:27 September 2023
 #########################################################################################################################################################################
@@ -24,47 +25,108 @@
 #                         x,y,z=fruit
 #########################################################################################################################################################################
 # Day:2
+# Data Type 
+# Number
+#Conversion Type
+x = 1
+y = 1.52
+z = 1j
 
-x=[3.4,5,7,8,'Paper']
+a = float(x)      #  Converting int to float
+print(a)
+print(type(a))
 
-y=[3.4,'Paper',5,7,8]
+b = int(y)         # converting float to int
+print(b)
+print(type(b))
 
-print(x==y)
-
-students=['Rina',112,'Russia']
-
-course1 = ['Data Analysis',109]
-
-course2 = ['Machine Learning',111]
-
-faculty=[18,'Mr.Shane']
+c = complex(x)      # conerting int to complex
+print(c)
+print(type(c))
 
 
+print(random. randrange(1,10))  # Random Number
 
-print('Printing the data of students..')
+# String(str): eg x="Hello World!"
+print("Hello")  #just normal stringb
 
-print('Name is: %s, Id is: %d, Country is: %s' %(students[0],students[1],students[2]))
+d= "Hello"       # assign string to Variable
+print(a)     
 
-lst=[4,5,6,7,9,90,45,78,56]
 
-print(lst[1:8:3])
+e= """ Hi my name is nirmeet I am polishin my                           
+skills and working hard to get jobs  and all that stuff"""              # or you can use for ''' 0fgnjo0njo''' single quote(Multiline Strings)
+print(d)
 
-list=[1,2,3,4,5,6]
+print(e[2])                                                             # String are Arrays
 
-print(list[-1])
 
-print(list[-4:])
+for f in "banana":                                                      #Looping Through String
+    print(f)
+    
+g= """ Hi my name is nirmeet I am polishin my                           
+skills and working hard to get jobs  and all that stuff"""              # String Length
+print(len(g))
 
-print(list[:-2])
 
-print(list[-3:-1])
+txt = "Hi my name is Nirmeet"
+print("Nirmeet" in txt)                                                 #Check String
 
-list1=[4,5,6,3,2,2]
+txt = "Hi my name is Nirmeet"
+if "Nirmeet" in txt:
+    print("There is nirmeet in txt")                                      # if statemen
 
-list1[-2]=10
+txt = "Hi my name is Nirmeet"
+print("yash" not in txt)
 
-print(list1)
+txt = "Hi my name is Nirmeet"
+if "yash" not in txt:
+    print("it is not in text")
 
-list1[1:3]=[44,55]
+# >>Integer(int): eg x=22
 
-print(list1)
+
+
+#  >>Float(float): eg x=1.22
+
+
+
+# >> Complex(complex): eg x=4j2j
+
+
+
+#  >>List(list): eg  ["orange","banana","apple"]
+
+
+
+#  >>Tuple(())
+
+
+
+# >>Range(6)
+
+
+# >>Dictonery(dict{}): eg {"name":"nirmeet","age":36}  
+
+
+
+# >>Set({}): eg {"orange","banana","apple"}
+
+
+# >>Frozenset(frozenset({})): eg x=frozenset({"orange","banana","apple"})
+
+
+# >>Booleans(bool): eg True,False
+
+
+# >>Bytes(b): eg b"hello"
+
+
+# >>Bytearray(bytearray): eg x=bytearray
+
+
+# >>Memoryview(memoryview): eg x=memoryview(bytes(5))
+
+
+
+
