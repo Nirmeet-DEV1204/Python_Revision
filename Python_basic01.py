@@ -1,4 +1,4 @@
-import random
+import random # used for rendom 
 #Author:Nirmeet_Pansuriya
 #Date:27 September 2023
 #########################################################################################################################################################################
@@ -76,12 +76,42 @@ txt = "Hi my name is Nirmeet"
 if "Nirmeet" in txt:
     print("There is nirmeet in txt")                                      # if statemen
 
-txt = "Hi my name is Nirmeet"
+txt = "Hi my name is Nirmeet"                                            # Check if Not
 print("yash" not in txt)
 
-txt = "Hi my name is Nirmeet"
+txt = "Hi my name is Nirmeet"                                            # if statement for checking if Not
 if "yash" not in txt:
     print("it is not in text")
+
+#>>>>>>> slicing String
+a="Hi my name is Nirmeet"
+print(len(a))
+print(a[2:])              # 2 will skip first 2 index and print rest of the stuff :: my name is Nirmeet
+print(a[2:7])
+print(a[-5:-2])          # - will start from back like -5 (rmeet), -2 (rme)
+
+
+#>>>>>>> Python -modify string
+a = "Hello Word!"
+print(a.upper())  # upper Case letter
+
+print(a.lower())  # lower Case letter
+
+print(a.strip()) # The strip() method removes any whitespace from the beginning or the end
+
+
+#>>>>>>> Replace String
+a = "Hello World!"
+print(a.replace("H","J"))
+
+print(a.split(","))  #returns['hello','World!']
+
+a="Hello"
+b="World"  # String Concatenation
+c = a+b
+print(c)
+
+
 
 # >>Integer(int): eg x=22
 
